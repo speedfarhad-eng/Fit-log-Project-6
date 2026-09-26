@@ -16,7 +16,7 @@ const NotFound = () => {
         </h2>
 
         <p className="mt-2 text-zinc-500">
-          This workout doesn't exist.
+          This workout doesnot exist.
         </p>
 
         <Link
