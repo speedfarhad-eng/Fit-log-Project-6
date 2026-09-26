@@ -12,7 +12,7 @@ const NotFound = () => {
         </h1>
 
         <h2 className="mt-3 text-2xl font-bold uppercase">
-          Workout Not Found
+          Workout list Not Found
         </h2>
 
         <p className="mt-2 text-zinc-500">
@@ -24,7 +24,7 @@ const NotFound = () => {
           className="inline-flex items-center gap-2 mt-6 bg-[#ccff00] text-black px-5 py-3 rounded-lg font-bold hover:bg-[#b8e600]"
         >
           <ArrowLeft size={18} />
-          Back Home
+          Back workout Home 
         </Link>
       </div>
     </main>
