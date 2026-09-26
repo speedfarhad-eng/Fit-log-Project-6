@@ -1,12 +1,22 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useFitLog } from "@/FitlogContext/page";
 
 const Navbar = () => {
+  const { plan, saved } = useFitLog();
+
   return (
-    <div className="navbar bg-base-100 shadow-sm px-4 lg:px-8">
+   <div className="navbar sticky top-0 z-50 bg-base-100 shadow-sm px-4 lg:px-8">
+      {/* Logo + Mobile Menu */}
       <div className="navbar-start">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+          <div
+            tabIndex={0}
+            role="button"
+            className="btn btn-ghost lg:hidden"
+          >
             <svg
               aria-label="Menu"
               xmlns="http://www.w3.org/2000/svg"
@@ -53,6 +63,7 @@ const Navbar = () => {
         </Link>
       </div>
 
+      {/* Desktop Menu */}
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
@@ -69,19 +80,20 @@ const Navbar = () => {
         </ul>
       </div>
 
+      {/* Plan + Saved */}
       <div className="navbar-end gap-2">
         <Link
           href="/my-plan"
           className="badge badge-lg bg-lime-400 text-black border-none px-4 py-4 font-semibold"
         >
-          Plan 0
+          Plan {plan.length}
         </Link>
 
         <Link
           href="/my-plan"
           className="badge badge-lg badge-outline px-4 py-4 font-semibold"
         >
-          Saved 0
+          Saved {saved.length}
         </Link>
       </div>
     </div>
