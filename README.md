@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏋️‍♂️ Fit Log — Your Personal Workout & Fitness Companion
 
-## Getting Started
+Hey there! Welcome to **Fit Log** — a sleek, modern web application built to help fitness enthusiasts organize their daily routines, track their progress, and stay consistent with their fitness goals. 
 
-First, run the development server:
+I built this project to make workout planning frictionless, clean, and visually engaging using modern web technologies.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Every great app needs a solid foundation. Here is the tech stack powering Fit Log:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Framework:** [Next.js](https://nextjs.org/) (App Router)
+* **Library:** [React](https://react.dev/)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/) & [DaisyUI](https://daisyui.com/)
+* **Icons:** [React Icons](https://react-icons.github.io/react-icons/) 
+* **State Management:** React Context API (`FitlogContext`)
+* **Notifications:** React Toastify
+* **Language:** TypeScript
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Key Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Here is what makes Fit Log awesome and fun to use:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Daily Workout Plan Cap (Max 5):** To keep you focused and prevent burnout, you can add a maximum of 5 workouts to your "Today's Plan".
+2. **Interactive Tabs & Organization:** Easily switch between **Today's Plan** and your **Saved Workouts** using clean, responsive UI tabs.
+3. **Smart Sorting & Filtering:** Sort your workouts instantly by **Duration**, **Calories Burned**, or **Rating** to pick the right routine for your mood.
+4. **Live Metrics Summary:** Keep track of your total exercises, total estimated minutes, and calories burned dynamically as you modify your plan.
+5. **Workout Completion Tracker:** Mark individual exercises as "Done" with a satisfying strikethrough effect to celebrate your daily micro-wins.
+6. **Instant Feedback & Visuals:** Powered by React Toastify alerts and dynamic **React Icons** for a smooth, intuitive user experience.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🛠️ Getting Started Locally
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Want to run this project on your local machine? Follow these simple steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/fit-log.git](https://github.com/your-username/fit-log.git)
