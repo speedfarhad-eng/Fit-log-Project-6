@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
    <div className="navbar sticky top-0 z-50 bg-base-100 shadow-sm px-4 lg:px-8">
-      {/* Logo + Mobile Menu */}
+
       <div className="navbar-start">
         <div className="dropdown">
           <div
@@ -63,7 +63,6 @@ const Navbar = () => {
         </Link>
       </div>
 
-      {/* Desktop Menu */}
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
@@ -80,7 +79,7 @@ const Navbar = () => {
         </ul>
       </div>
 
-      {/* Plan + Saved */}
+     
       <div className="navbar-end gap-2">
         <Link
           href="/my-plan"

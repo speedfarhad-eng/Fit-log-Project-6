@@ -87,8 +87,6 @@ export default function MyPlanPage() {
       />
 
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6 border-b border-gray-800 pb-4">
-      
-        {/*DAisy Khala Tabs */}
         <div
           role="tablist"
           className="tabs tabs-boxed bg-[#12161f] p-1 rounded-lg border border-gray-800"

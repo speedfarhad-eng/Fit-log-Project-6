@@ -74,7 +74,7 @@ export default function WorkoutCard({
         </div>
       </div>
 
-      {/* Action Buttons */}
+     
       <div className="flex items-center gap-2 w-full md:w-auto justify-end">
         <Link
           href={`/workout/${workout.id}`}
